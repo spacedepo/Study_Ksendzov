@@ -1,0 +1,91 @@
+{
+	"id": "0530103b-8d49-4743-b2dd-e64b3f979328",
+	"name": "The_first",
+	"timestamp": "2022-04-27T18:22:31.612Z",
+	"collection_id": "15056733-fa93c548-3d9f-41f9-a0e1-fed395f1e91b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5ce33af1-e4f2-4e5a-a1c0-4d2388dc9e3d",
+			"name": "Users",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 228,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Item_1 Test": true,
+				"Item_2 Person": true,
+				"Item_3 Person": true,
+				"Item_4 Person": true,
+				"Item_5 Person": true,
+				"Item_6 Person": true,
+				"Item_7 Person": true,
+				"Item_8 Person": true
+			},
+			"testPassFailCounts": {
+				"Item_1 Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Item_2 Person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Item_3 Person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Item_4 Person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Item_5 Person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Item_6 Person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Item_7 Person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Item_8 Person": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				228
+			],
+			"allTests": [
+				{
+					"Item_1 Test": true,
+					"Item_2 Person": true,
+					"Item_3 Person": true,
+					"Item_4 Person": true,
+					"Item_5 Person": true,
+					"Item_6 Person": true,
+					"Item_7 Person": true,
+					"Item_8 Person": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 228,
+	"collection": {
+		"requests": [
+			{
+				"id": "5ce33af1-e4f2-4e5a-a1c0-4d2388dc9e3d",
+				"method": "POST"
+			}
+		]
+	}
+}
